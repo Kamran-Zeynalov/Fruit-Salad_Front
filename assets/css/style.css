@@ -83,6 +83,39 @@ body header .headerUp .menu .ulMenuIcons li i.hamburger {
 body header .headerUp .menu .ulMenuIcons li i.hamburger:hover {
   color: #2EDC87;
 }
+body header .headerUp .side-menu {
+  box-shadow: 2px 2px 20px 2px black;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 2;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 400px;
+  height: 100vh;
+}
+body header .headerUp .side-menu .menu-title {
+  background-color: #23BE7B;
+  padding: 10px 16px;
+  border-bottom: 2px solid lightgray;
+}
+body header .headerUp .side-menu .menu-title .X-btn {
+  font-size: 26px;
+}
+body header .headerUp .side-menu .menu-infos ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+body header .headerUp .side-menu .menu-infos ul li {
+  text-align: center;
+  font-size: 25px;
+}
+body header .headerUp .side-menu .menu-infos a {
+  color: #363947;
+  text-decoration: none;
+}
 body main #FruitCustomize .customizeAndImage {
   display: flex;
   justify-content: space-between;
@@ -428,14 +461,76 @@ body main #Orchard .info-image .orchardImage {
 body main #Orchard .info-image .orchardImage img {
   width: 100%;
 }
-body footer .contact h4 {
-  margin-left: 30px;
+body footer .all-footer-info {
+  margin: 80px 0;
 }
-body footer .contact ul {
+body footer .all-footer-info .applications {
+  display: flex;
+}
+body footer .all-footer-info .applications .app {
+  padding: 0 10px;
+}
+body footer .all-footer-info .free-line {
+  width: 98%;
+  height: 1px;
+  background-color: lightgray;
+  margin: 30px auto;
+}
+body footer .all-footer-info .reserved {
+  padding: 10px 0 0 17px;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .reserved {
+    padding: 10px 0 18px 30px;
+  }
+}
+body footer .all-footer-info .reserved p {
+  font-family: AnekTamil-Medium;
+  line-height: 5px;
+  color: #6E7286;
+}
+body footer .all-footer-info .footerInfos h4 {
+  margin-left: 30px;
+  font-size: 23px;
+  font-family: AnekTamil-Regular;
+  color: #363947;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .footerInfos h4 {
+    font-size: 18px;
+  }
+}
+body footer .all-footer-info .footerInfos ul li {
+  list-style: none;
+  color: #6E7286;
+  line-height: 35px;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .footerInfos ul li {
+    font-size: 13px;
+    line-height: 28px;
+  }
+}
+body footer .all-footer-info .footerInfos ul li a {
+  text-decoration: none;
+  color: #6E7286;
+}
+body footer .all-footer-info .contact h4 {
+  margin-left: 30px;
+  font-size: 23px;
+  font-family: AnekTamil-Regular;
+  color: #363947;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .contact h4 {
+    font-size: 18px;
+  }
+}
+body footer .all-footer-info .contact ul {
   list-style: none;
   display: flex;
 }
-body footer .contact ul li {
+body footer .all-footer-info .contact ul li {
   color: #2EDC87;
   font-size: 17px;
   width: 32px;
@@ -444,4 +539,9 @@ body footer .contact ul li {
   padding: 3px 9px;
   margin: 10px 23px 0 0;
   background-color: #EEFCF5;
+}
+@media only screen and (max-width: 820px) {
+  body footer .all-footer-info .contact ul li {
+    margin: 10px 15px 0 0;
+  }
 }/*# sourceMappingURL=style.css.map */
