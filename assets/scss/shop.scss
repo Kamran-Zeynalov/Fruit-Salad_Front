@@ -1,0 +1,209 @@
+body {
+    main {
+        .passage {
+            padding: 85px 0 0 20px;
+
+            span {
+                font-size: 15px; 
+
+                a {
+                    transition: .3s;
+                }
+
+                a:hover {
+                    color: #23BE7B;
+                }
+
+                .home {
+                    color: #A6ABC4;
+                }
+
+                .shop {
+                    color: #525666;
+                }
+            }
+        }
+
+        #Filter {
+            .page-name {
+                margin: 0 0 20px 0;
+
+                h1 {
+                    color: #23BE7B;
+                }
+            }
+
+            .filters {
+                background-color: #F6F7F9;
+                padding: 10px;
+                border-radius: 10px;
+
+                .title {
+                    display: flex;
+                    justify-content: space-between;
+
+                    h5 {
+                        i {
+                            display: inline-block;
+                            font-size: 15px;
+                        }
+                    }
+                }
+
+                .title-categories {
+
+                    .categories {
+                        ul {
+                            li {
+                                margin: 10px 0;
+                                list-style: none;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            ul{
+                                 display: none;
+                                li{
+                                    margin: 0;
+                                    display: block;
+                                    input{
+                                        margin-right: 6px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    border-bottom: 1px solid lightgray;
+                    margin-bottom: 15px;
+                }
+
+                .title-calori {
+                    .calories {
+                        form {
+                            ul {
+                                list-style: none;
+                            }
+                        }
+                    }
+
+                    border-bottom: 1px solid lightgray;
+                    margin-bottom: 15px;
+                }
+
+                .title-taste {
+                    .taste {
+                        form {
+                            ul {
+                                list-style: none;
+                            }
+                        }
+                    }
+                    border-bottom: 1px solid lightgray;
+                    margin-bottom: 15px;
+                }
+
+                
+                .title-season {
+
+                    .season {
+                        ul {
+                            li {
+                                margin: 10px 0; 
+                                list-style: none;
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                            ul{
+                                // display: block;
+                                li{
+                                    display: block;
+                                    margin: 0;
+                                    input{
+                                        margin-right: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    border-bottom: 1px solid lightgray;
+                    margin-bottom: 15px;
+                }
+
+
+
+            }
+
+
+
+
+            .image-info {
+                // margin-top: 25px;
+
+                .image-icon {
+                    position: relative;
+                    width: 288px;
+
+                    .image {
+                        img {
+                            width: 288;
+                            height: 268px;
+                        }
+
+                    }
+
+                    .heartIcon {
+                        padding: 10px;
+                        background-color: #F6F7F9;
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        border-radius: 0 0 0 12px;
+
+                        i {
+                            font-size: 20px;
+                            color: #8A8FA5;
+                            transition: .3s;
+                        }
+
+                        i:hover {
+                            color: #2EDC87;
+                        }
+                    }
+                }
+
+                .info {
+                    width: 288px;
+                    background-color: #F9F9F9;
+                    padding: 6px;
+
+                    .rating {
+                        display: flex;
+                        color: #2EDC87;
+
+                        .star-icon {
+                            padding: 0 7px;
+                        }
+                    }
+
+                    .name-comp {
+                        h3 {
+                            color: #525666;
+                            font-family: AnekTamil-SemiBold;
+                        }
+
+                        p {
+                            color: #8A8FA5;
+                            font-family: AnekTamil-Regular;
+                        }
+                    }
+
+                    .dollar-price {
+                        color: #6E7286;
+                        font-family: AnekTamil-SemiBold;
+                    }
+                }
+            }
+        }
+    }
+}
