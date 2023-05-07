@@ -1,47 +1,51 @@
 body {
     main {
-        .passage {
-            padding: 85px 0 0 20px;
+        font-family: "AnekTamil-Medium";
 
-            span {
-                font-size: 15px; 
+        .salad-background {
+            .passage {
+                margin: 85px 0 10px 3px;
 
-                a {
-                    transition: .3s;
-                }
+                span {
+                    font-size: 15px;
 
-                a:hover {
-                    color: #23BE7B;
-                }
+                    a {
+                        transition: .3s;
+                    }
 
-                .home {
-                    color: #A6ABC4;
-                }
+                    a:hover {
+                        color: #23BE7B;
+                    }
 
-                .shop {
-                    color: #525666;
+                    .home {
+                        color: #A6ABC4;
+                    }
+
+                    .shop {
+                        color: #525666;
+                    }
                 }
             }
-        }
 
-        #Filter {
             .page-name {
-                margin: 0 0 20px 0;
+                margin: 0 0 7px 0;
 
                 h1 {
                     color: #23BE7B;
                 }
             }
+        }
 
+        #Filter {
             .filters {
+                color: #6E7286;
                 background-color: #F6F7F9;
-                padding: 10px;
+                padding: 20px;
                 border-radius: 10px;
 
                 .title {
                     display: flex;
                     justify-content: space-between;
-
                     h5 {
                         i {
                             display: inline-block;
@@ -55,17 +59,22 @@ body {
                     .categories {
                         ul {
                             li {
-                                margin: 10px 0;
+                                margin:5px 0;
                                 list-style: none;
                                 display: flex;
                                 justify-content: space-between;
                             }
-                            ul{
-                                 display: none;
-                                li{
+
+                            ul {
+                                display: none;
+                                &:nth-child(2){
+                                    display: block;
+                                }
+                                li {
                                     margin: 0;
                                     display: block;
-                                    input{
+
+                                    input {
                                         margin-right: 6px;
                                     }
                                 }
@@ -79,6 +88,7 @@ body {
 
                 .title-calori {
                     .calories {
+                        display: none;
                         form {
                             ul {
                                 list-style: none;
@@ -92,33 +102,40 @@ body {
 
                 .title-taste {
                     .taste {
+                        display: none;
                         form {
                             ul {
                                 list-style: none;
                             }
                         }
                     }
+
                     border-bottom: 1px solid lightgray;
                     margin-bottom: 15px;
                 }
 
-                
-                .title-season {
 
+                .title-season {
                     .season {
+                        display: none;
                         ul {
                             li {
-                                margin: 10px 0; 
+                                margin:5px 0;
                                 list-style: none;
                                 display: flex;
                                 justify-content: space-between;
                             }
-                            ul{
-                                // display: block;
-                                li{
+
+                            ul {
+                                 display: none;
+                                 &:nth-child(2){
+                                    display: block;
+                                }
+                                li {
                                     display: block;
                                     margin: 0;
-                                    input{
+
+                                    input {
                                         margin-right: 10px;
                                     }
                                 }
@@ -188,6 +205,10 @@ body {
 
                     .name-comp {
                         h3 {
+                            a{
+                                color: #525666;
+                                text-decoration: none;
+                            }
                             color: #525666;
                             font-family: AnekTamil-SemiBold;
                         }

@@ -1,30 +1,34 @@
-body main .passage {
-  padding: 85px 0 0 20px;
+body main {
+  font-family: "AnekTamil-Medium";
 }
-body main .passage span {
+body main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+body main .salad-background .passage span {
   font-size: 15px;
 }
-body main .passage span a {
+body main .salad-background .passage span a {
   transition: 0.3s;
 }
-body main .passage span a:hover {
+body main .salad-background .passage span a:hover {
   color: #23BE7B;
 }
-body main .passage span .home {
+body main .salad-background .passage span .home {
   color: #A6ABC4;
 }
-body main .passage span .shop {
+body main .salad-background .passage span .shop {
   color: #525666;
 }
-body main #Filter .page-name {
-  margin: 0 0 20px 0;
+body main .salad-background .page-name {
+  margin: 0 0 7px 0;
 }
-body main #Filter .page-name h1 {
+body main .salad-background .page-name h1 {
   color: #23BE7B;
 }
 body main #Filter .filters {
+  color: #6E7286;
   background-color: #F6F7F9;
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
 }
 body main #Filter .filters .title {
@@ -40,13 +44,16 @@ body main #Filter .filters .title-categories {
   margin-bottom: 15px;
 }
 body main #Filter .filters .title-categories .categories ul li {
-  margin: 10px 0;
+  margin: 5px 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 body main #Filter .filters .title-categories .categories ul ul {
   display: none;
+}
+body main #Filter .filters .title-categories .categories ul ul:nth-child(2) {
+  display: block;
 }
 body main #Filter .filters .title-categories .categories ul ul li {
   margin: 0;
@@ -59,12 +66,18 @@ body main #Filter .filters .title-calori {
   border-bottom: 1px solid lightgray;
   margin-bottom: 15px;
 }
+body main #Filter .filters .title-calori .calories {
+  display: none;
+}
 body main #Filter .filters .title-calori .calories form ul {
   list-style: none;
 }
 body main #Filter .filters .title-taste {
   border-bottom: 1px solid lightgray;
   margin-bottom: 15px;
+}
+body main #Filter .filters .title-taste .taste {
+  display: none;
 }
 body main #Filter .filters .title-taste .taste form ul {
   list-style: none;
@@ -73,11 +86,20 @@ body main #Filter .filters .title-season {
   border-bottom: 1px solid lightgray;
   margin-bottom: 15px;
 }
+body main #Filter .filters .title-season .season {
+  display: none;
+}
 body main #Filter .filters .title-season .season ul li {
-  margin: 10px 0;
+  margin: 5px 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+body main #Filter .filters .title-season .season ul ul {
+  display: none;
+}
+body main #Filter .filters .title-season .season ul ul:nth-child(2) {
+  display: block;
 }
 body main #Filter .filters .title-season .season ul ul li {
   display: block;
@@ -125,6 +147,10 @@ body main #Filter .image-info .info .rating .star-icon {
 body main #Filter .image-info .info .name-comp h3 {
   color: #525666;
   font-family: AnekTamil-SemiBold;
+}
+body main #Filter .image-info .info .name-comp h3 a {
+  color: #525666;
+  text-decoration: none;
 }
 body main #Filter .image-info .info .name-comp p {
   color: #8A8FA5;

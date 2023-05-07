@@ -1,17 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
-@import 'animate.css';
-@font-face {
-  font-family: "AnekTamil-Medium";
-  src: url("../fonts/AnekTamil-Medium.ttf");
-}
-@font-face {
-  font-family: "AnekTamil-Regular";
-  src: url("../fonts/AnekTamil-Regular.ttf");
-}
-@font-face {
-  font-family: "AnekTamil-SemiBold";
-  src: url("../fonts/AnekTamil-SemiBold.ttf");
-}
 body main #FruitCustomize .customizeAndImage {
   display: flex;
   justify-content: space-between;
@@ -183,8 +169,11 @@ body main #SpecialOffers .image-info .info .rating .star-icon {
   padding: 0 7px;
 }
 body main #SpecialOffers .image-info .info .name-comp h3 {
-  color: #525666;
   font-family: AnekTamil-SemiBold;
+}
+body main #SpecialOffers .image-info .info .name-comp h3 a {
+  color: #525666;
+  text-decoration: none;
 }
 body main #SpecialOffers .image-info .info .name-comp p {
   color: #8A8FA5;

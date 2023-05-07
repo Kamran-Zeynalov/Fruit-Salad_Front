@@ -1,9 +1,34 @@
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+@import 'animate.css';
+@font-face {
+  font-family: "AnekTamil-Medium";
+  src: url("../fonts/AnekTamil-Medium.ttf");
+}
+@font-face {
+  font-family: "AnekTamil-Regular";
+  src: url("../fonts/AnekTamil-Regular.ttf");
+}
+@font-face {
+  font-family: "AnekTamil-SemiBold";
+  src: url("../fonts/AnekTamil-SemiBold.ttf");
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2EDC87;
+  border-radius: 10px;
+}
+
 body header {
   position: relative;
   background-color: white;
   position: fixed;
   width: 100%;
   z-index: 2;
+  box-shadow: 1px 1px 30px 1px lightgray;
+  border-bottom: 2px solid #2EDC87;
 }
 body header .headerUp {
   height: 60px;
