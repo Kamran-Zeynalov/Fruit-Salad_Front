@@ -11,14 +11,14 @@ $(document).ready(function () {
 
   });
 
-  $(".title-calori").on("click", function () {
+  $(".title-calori .title").on("click", function () {
     $(".title-calori .calories").slideToggle();
     $(".title-taste .taste").slideUp();
     $("div.categories").slideUp();
     $("div.season").slideUp();
 
   });
-  $(".title-taste").on("click", function () {
+  $(".title-taste .title").on("click", function () {
     $(".title-taste .taste").slideToggle();
     $(".title-calori .calories").slideUp();
     $("div.categories").slideUp();

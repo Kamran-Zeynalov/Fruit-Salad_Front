@@ -1,0 +1,53 @@
+body main {
+  font-family: "AnekTamil-Medium";
+}
+body main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+body main .salad-background .passage span {
+  font-size: 15px;
+}
+body main .salad-background .passage span a {
+  transition: 0.3s;
+  color: #A6ABC4;
+}
+body main .salad-background .passage span a:hover {
+  color: #23BE7B;
+}
+body main .salad-background .passage span .home {
+  color: #A6ABC4;
+}
+body main .salad-background .passage span .detail {
+  color: #525666;
+}
+body main #Detail {
+  color: #525666;
+}
+body main #Detail .image img {
+  width: 100%;
+}
+body main #Detail .name-price p {
+  font-size: 21px;
+}
+body main #Detail .rating {
+  display: flex;
+}
+body main #Detail .rating .star-icon i {
+  font-size: 14px;
+}
+body main #Detail .rating .point {
+  padding: 0 12px 0 6px;
+}
+body main #Detail .rating .review {
+  color: #2EDC87;
+}
+body main #Detail .rating .review p {
+  transition: 0.3s;
+  cursor: pointer;
+}
+body main #Detail .rating .review p i {
+  font-size: 14px;
+}
+body main #Detail .rating .review p:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=detail.css.map */

@@ -1,0 +1,75 @@
+body {
+    main {
+        font-family: "AnekTamil-Medium";
+
+        .salad-background {
+            .passage {
+                margin: 85px 0 10px 3px;
+
+                span {
+                    font-size: 15px;
+
+                    a {
+                        transition: .3s;
+                        color: #A6ABC4;
+                    }
+
+                    a:hover {
+                        color: #23BE7B;
+                    }
+
+                    .home {
+                        color: #A6ABC4;
+                    }
+
+                    .detail {
+                        color: #525666;
+                    }
+                }
+            }
+
+        }
+
+        #Detail {
+            color: #525666;
+            .image {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .name-price {
+                p {
+                    font-size: 21px;
+                }
+            }
+
+            .rating {
+                display: flex;
+                .star-icon {
+                    i{
+                        font-size: 14px;
+                        // padding: 0 6px;
+                    }
+                }
+                .point{
+                    padding: 0 12px 0 6px;
+                }
+                .review{
+                    color: #2EDC87;
+                    p{
+                        transition: .3s;
+                        cursor:pointer;
+                        i{
+                            font-size: 14px;
+                        }
+
+                        &:hover{
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
