@@ -1,0 +1,134 @@
+main .salad-background {
+  font-family: AnekTamil-Medium;
+}
+main .salad-background .passage {
+  margin: 85px 0 10px 3px;
+}
+main .salad-background .passage span {
+  font-size: 15px;
+}
+main .salad-background .passage span a {
+  transition: 0.3s;
+  color: #A6ABC4;
+}
+main .salad-background .passage span a:hover {
+  color: #23BE7B;
+}
+main .salad-background .passage span .home {
+  color: #A6ABC4;
+}
+main .salad-background .passage span .detail {
+  color: #525666;
+}
+main #Create {
+  color: #525666;
+}
+main #Create .create-title {
+  margin-bottom: 15px;
+  display: flex;
+}
+main #Create .create-title p {
+  background-color: #2EDC87;
+  color: white;
+  margin: 8px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+main #Create .create-title h2 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .all-infos {
+  padding: 22px;
+  background-color: #FAFAFB;
+}
+main #Create .all-infos .bowl-size {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+main #Create .all-infos .bowl-size .title h5 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .all-infos .bowl-size .select {
+  margin-left: 12px;
+}
+main #Create .all-infos .bowl-size .select label {
+  margin-right: 20px;
+}
+main #Create .all-infos .bowl-size .select label input {
+  margin: 0 18px;
+}
+main #Create .all-infos .spices ul {
+  list-style: none;
+}
+main #Create .all-infos .spices ul li {
+  border-bottom: 1px solid #e6e6e8;
+  margin: 27px 0;
+}
+main #Create .all-infos .spices ul li .name-icon {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+main #Create .all-infos .spices ul li .name-icon .icon i {
+  color: #CACDDC;
+}
+main #Create .all-infos .spices ul .name-and-fruits .name p {
+  color: #6E7286;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name {
+  margin-left: 7px;
+  padding: 0 1px;
+  cursor: pointer;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name:hover .name {
+  color: #23BE7B;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name .image {
+  width: 96px;
+  height: 84px;
+  border-radius: 4px;
+  background-color: white;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name .image img {
+  width: 77px;
+  height: 66px;
+  margin: 9px 10px;
+}
+main #Create .all-infos .spices ul .name-and-fruits .topping-fruit .image-name .name {
+  text-align: center;
+  transition: 0.3s;
+}
+main #Create .all-infos .spices ul .name-and-fruits .select {
+  margin-left: 12px;
+}
+main #Create .all-infos .spices ul .name-and-fruits .select label {
+  margin-right: 20px;
+}
+main #Create .all-infos .spices ul .name-and-fruits .select label input {
+  margin: 0 18px;
+}
+main #Create .all-infos .shape-fruit {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+main #Create .all-infos .shape-fruit .title h5 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .all-infos .shape-fruit .select {
+  margin-left: 12px;
+}
+main #Create .all-infos .shape-fruit .select label {
+  margin-right: 20px;
+}
+main #Create .all-infos .shape-fruit .select label input {
+  margin: 0 18px;
+}/*# sourceMappingURL=create.css.map */
