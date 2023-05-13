@@ -131,4 +131,118 @@ main #Create .all-infos .shape-fruit .select label {
 }
 main #Create .all-infos .shape-fruit .select label input {
   margin: 0 18px;
+}
+main #Create .all-infos .comment {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+main #Create .all-infos .comment .title h5 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .fruit-infos {
+  padding: 22px;
+  background-color: #FAFAFB;
+}
+main #Create .fruit-infos .caption {
+  border-bottom: 1px solid #e6e6e8;
+}
+main #Create .fruit-infos .caption .fruit-salad {
+  margin-bottom: 15px;
+  display: flex;
+}
+main #Create .fruit-infos .caption .fruit-salad p {
+  background-color: #2EDC87;
+  color: white;
+  margin: 4px 10px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+main #Create .fruit-infos .caption .fruit-salad h4 {
+  font-family: AnekTamil-SemiBold;
+}
+main #Create .fruit-infos .selected-fruits {
+  display: flex;
+  flex-wrap: wrap;
+}
+main #Create .fruit-infos .selected-fruits .fruit {
+  margin: 10px 12px;
+  border: 1px solid #89E9BC;
+  border-radius: 24px;
+  height: 40px;
+  padding: 15px 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  font-size: 15px;
+}
+@media only screen and (max-width: 820px) {
+  main #Create .fruit-infos .selected-fruits .fruit {
+    margin: 0 3px;
+  }
+}
+main #Create .fruit-infos .selected-fruits .fruit:hover {
+  color: #2EDC87;
+  border-color: #525666;
+}
+main #Create .fruit-infos .selected-fruits .fruit .fruit-name p {
+  color: #A6ABC4;
+}
+main #Create .fruit-infos .selected-fruits .fruit .icon {
+  margin: 0 0 16px 6px;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #525666;
+  cursor: pointer;
+}
+main #Create .fruit-infos .selected-fruits .fruit .icon i {
+  margin: 2px;
+}
+main #Create .fruit-infos .selected-fruits .not-changed {
+  background-color: #73E7AF;
+  color: white;
+  transition: 0.3s;
+}
+main #Create .fruit-infos .selected-fruits .not-changed:hover {
+  background-color: #5bc893;
+  color: white;
+  border-color: #89E9BC;
+}
+main #Create .fruit-infos .text-info {
+  margin-top: 20px;
+  width: 70%;
+}
+main #Create .fruit-infos .text-info p {
+  color: #525666;
+}
+main #Create .fruit-infos .total-add-basket {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+}
+main #Create .fruit-infos .total-add-basket .total span {
+  color: #363947;
+  font-weight: bold;
+}
+main #Create .fruit-infos .total-add-basket .button {
+  width: 70%;
+  margin: 0 auto;
+}
+main #Create .fruit-infos .total-add-basket .button button {
+  width: 95%;
+  border: none;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #23BE7B;
+  color: white;
+  transition: 0.3s;
+}
+main #Create .fruit-infos .total-add-basket .button button:hover {
+  background-color: #1b9e65;
 }/*# sourceMappingURL=create.css.map */
