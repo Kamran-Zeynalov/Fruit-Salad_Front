@@ -43,69 +43,86 @@ body main #Filter .filters .title-categories {
   border-bottom: 1px solid lightgray;
   margin-bottom: 15px;
 }
-body main #Filter .filters .title-categories .categories ul li {
+body main #Filter .filters .title-categories .title {
+  transition: 0.3s;
+}
+body main #Filter .filters .title-categories .title:hover i {
+  color: #2EDC87;
+}
+body main #Filter .filters .title-categories .categories div.title2 {
+  padding: 3px 0;
+}
+body main #Filter .filters .title-categories .categories div.title2 li {
   margin: 5px 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-body main #Filter .filters .title-categories .categories ul ul {
+body main #Filter .filters .title-categories .categories div.title2 li:hover i {
+  color: #2EDC87;
+}
+body main #Filter .filters .title-categories .categories .fruitButton button {
+  font-size: 13px;
+  background-color: #F6F7F9;
+  border: 1px solid #c5c7d0;
+  color: #6E7286;
+  transition: 0.3s;
+}
+body main #Filter .filters .title-categories .categories .fruitButton button:hover {
+  color: #2EDC87;
+  border-color: #2EDC87;
+}
+body main #Filter .filters .title-categories .calories {
   display: none;
 }
-body main #Filter .filters .title-categories .categories ul ul:nth-child(2) {
-  display: block;
-}
-body main #Filter .filters .title-categories .categories ul ul li {
-  margin: 0;
-  display: block;
-}
-body main #Filter .filters .title-categories .categories ul ul li input {
-  margin-right: 6px;
-}
-body main #Filter .filters .title-calori {
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 15px;
-}
-body main #Filter .filters .title-calori .calories {
-  display: none;
-}
-body main #Filter .filters .title-calori .calories form ul {
+body main #Filter .filters .title-categories .calories form ul {
   list-style: none;
 }
-body main #Filter .filters .title-taste {
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 15px;
-}
-body main #Filter .filters .title-taste .taste {
+body main #Filter .filters .title-categories .taste {
   display: none;
 }
-body main #Filter .filters .title-taste .taste form ul {
+body main #Filter .filters .title-categories .taste form ul {
   list-style: none;
 }
-body main #Filter .filters .title-season {
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 15px;
-}
-body main #Filter .filters .title-season .season {
+body main #Filter .filters .title-categories .taste .season {
   display: none;
 }
-body main #Filter .filters .title-season .season ul li {
+body main #Filter .filters .title-categories .taste .season ul li {
   margin: 5px 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
-body main #Filter .filters .title-season .season ul ul {
+body main #Filter .filters .title-categories .taste .season ul ul {
   display: none;
 }
-body main #Filter .filters .title-season .season ul ul:nth-child(2) {
+body main #Filter .filters .title-categories .taste .season ul ul:nth-child(2) {
   display: block;
 }
-body main #Filter .filters .title-season .season ul ul li {
+body main #Filter .filters .title-categories .taste .season ul ul li {
   display: block;
   margin: 0;
 }
-body main #Filter .filters .title-season .season ul ul li input {
+body main #Filter .filters .title-categories .taste .season ul ul li input {
+  margin-right: 10px;
+}
+body main #Filter .filters .title-categories .season ul li {
+  margin: 5px 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+body main #Filter .filters .title-categories .season ul ul {
+  display: none;
+}
+body main #Filter .filters .title-categories .season ul ul:nth-child(2) {
+  display: block;
+}
+body main #Filter .filters .title-categories .season ul ul li {
+  display: block;
+  margin: 0;
+}
+body main #Filter .filters .title-categories .season ul ul li input {
   margin-right: 10px;
 }
 @media only screen and (max-width: 820px) {
