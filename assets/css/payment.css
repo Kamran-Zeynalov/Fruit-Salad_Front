@@ -54,6 +54,146 @@ main #Imformation .leftDiv .title .titleList li:hover {
   color: #2EDC87;
   border-bottom: 1px solid #2EDC87;
 }
+main #Imformation .leftDiv .creditCard {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 26px;
+}
+main #Imformation .leftDiv .creditCard .input {
+  margin-top: 10px;
+}
+main #Imformation .leftDiv .creditCard .inp-text {
+  width: 60%;
+}
+main #Imformation .leftDiv .creditCard .inp-text h4 {
+  color: #686d84;
+}
+main #Imformation .leftDiv .creditCard .inp-text p {
+  font-size: 15px;
+  width: 90%;
+  color: #c5cae4;
+  font-weight: 100;
+}
+main #Imformation .leftDiv .creditCard .cardImage img {
+  margin: 0 10px;
+  width: 40px;
+}
+main #Imformation .leftDiv .card-info {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+main #Imformation .leftDiv .card-info .cardHolder label {
+  display: block;
+  color: #686d84;
+}
+main #Imformation .leftDiv .card-info .cardHolder input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .leftDiv .card-info .cardHolder ::-moz-placeholder {
+  padding-left: 10px;
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .leftDiv .card-info .cardHolder ::placeholder {
+  padding-left: 10px;
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .leftDiv .card-info .aboutCard {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+main #Imformation .leftDiv .card-info .aboutCard input {
+  width: 150%;
+  height: 40px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  outline: none;
+  color: gray;
+  font-size: 15px;
+}
+main #Imformation .leftDiv .card-info .aboutCard ::-moz-placeholder {
+  padding-left: 10px;
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .leftDiv .card-info .aboutCard ::placeholder {
+  padding-left: 10px;
+  color: lightgrey;
+  opacity: 1;
+  /* Firefox */
+}
+main #Imformation .leftDiv .card-info .aboutCard label {
+  color: #686d84;
+  display: block;
+}
+main #Imformation .leftDiv .card-info .aboutCard .date {
+  margin-left: 100px;
+}
+main #Imformation .leftDiv .card-info .aboutCard .date input {
+  width: 70%;
+}
+main #Imformation .leftDiv .card-info .aboutCard .cvv {
+  margin-right: 10px;
+}
+main #Imformation .leftDiv .card-info .aboutCard .cvv input {
+  width: 65%;
+}
+main #Imformation .leftDiv .card-info .cash {
+  display: flex;
+  margin-top: 20px;
+}
+main #Imformation .leftDiv .card-info .cash .input {
+  margin-top: 10px;
+}
+main #Imformation .leftDiv .card-info .cash .inp-text {
+  width: 60%;
+}
+main #Imformation .leftDiv .card-info .cash .inp-text h4 {
+  color: #686d84;
+}
+main #Imformation .leftDiv .card-info .cash .inp-text p {
+  font-size: 15px;
+  width: 90%;
+  color: #c5cae4;
+  font-weight: 100;
+}
+main #Imformation .leftDiv .card-info .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+main #Imformation .leftDiv .card-info .buttons button {
+  margin: 0 5px;
+  width: 30%;
+  height: 50px;
+  border-radius: 30px;
+  color: #686d84;
+  border: 1px solid #525666;
+}
+main #Imformation .leftDiv .card-info .buttons .submit {
+  margin-right: 80px;
+  width: 50%;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #23BE7B;
+  color: white;
+  transition: 0.3s;
+}
+main #Imformation .leftDiv .card-info .buttons .submit:hover {
+  background-color: #1b9e65;
+}
 main #Imformation .rightDiv {
   color: #525666;
   background-color: #FAFAFB;
