@@ -90,13 +90,27 @@ body {
                             //    display: none;
                             button {
                                 font-size: 13px;
-                                background-color: #F6F7F9;
                                 border: 1px solid #c5c7d0;
-                                color: #6E7286;
                                 transition: .3s;
+
+                            }
+
+                            .baseButton {
+                                color: #6E7286;
+                                background-color: #F6F7F9;
 
                                 &:hover {
                                     color: #2EDC87;
+                                    border-color: #2EDC87;
+                                }
+                            }
+
+                            .secondButton {
+                                background-color: #2EDC87;
+                                color: white;
+
+                                &:hover {
+                                    color: white;
                                     border-color: #2EDC87;
                                 }
                             }
@@ -153,7 +167,7 @@ body {
                             }
                         }
                     }
-                
+
                     .season {
 
 

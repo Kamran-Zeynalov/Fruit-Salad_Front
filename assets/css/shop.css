@@ -63,13 +63,23 @@ body main #Filter .filters .title-categories .categories div.title2 li:hover i {
 }
 body main #Filter .filters .title-categories .categories .fruitButton button {
   font-size: 13px;
-  background-color: #F6F7F9;
   border: 1px solid #c5c7d0;
-  color: #6E7286;
   transition: 0.3s;
 }
-body main #Filter .filters .title-categories .categories .fruitButton button:hover {
+body main #Filter .filters .title-categories .categories .fruitButton .baseButton {
+  color: #6E7286;
+  background-color: #F6F7F9;
+}
+body main #Filter .filters .title-categories .categories .fruitButton .baseButton:hover {
   color: #2EDC87;
+  border-color: #2EDC87;
+}
+body main #Filter .filters .title-categories .categories .fruitButton .secondButton {
+  background-color: #2EDC87;
+  color: white;
+}
+body main #Filter .filters .title-categories .categories .fruitButton .secondButton:hover {
+  color: white;
   border-color: #2EDC87;
 }
 body main #Filter .filters .title-categories .calories {
